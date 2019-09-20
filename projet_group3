@@ -1,0 +1,19 @@
+Project 1. Numéro matricule.
+AIMS-Sénégal aimerait procéder à une immatriculation de ses étudiants et aimerait que le service
+qui s'en charge soit automatisé. Les noms et prénoms de l'étudiant sont enregistrés. Il est alors
+instauré le mécanisme suivant:
+1. Le numéro de l'étudiant comporte deux champs primaires:
+ Les trois premières consones du nom sont extraites et constitutent le premier champ;
+ Les trois premières lettres du premier prénom sont extraites et constitutent le deuxi
+ème champ.
+En cas de lettres manquantes, le système remplace l'espace vide par la lettre "X".
+2. L'on conviendra que ce système n'est pas complet et que pour les étudiants Gnansounou
+Marcel et Gnonas Marcellin auront le même identiant, à savoir GNNMAR. On ajoutera
+donc un troisième champ (composé de trois chires) aux deux champs primaires, de sorte
+que si Gnansounou Marcel s'est inscrit en premier, le numéro qui lui sera alloué est GNNMAR001.
+Gnonas Marcellin, qui se sera inscrit après aura alors pour numéro GNNMAR002.
+Le troisième champ constitue alors l'ordre d'inscription. Nous ferons l'hypothèse
+qu'il ne va pas excéder 999.
+Votre rôle consiste donc à écrire un programme Python qui implémente cette automatisation".
+Le programme devra bien évidemment avoir pout inputs les noms et prénoms de l'étudiant et
+pour output, son numéro matricule.
